@@ -23,3 +23,12 @@
 5. Load the app once online, then test offline.
 
 The app stores data locally in the browser on this device; it does not automatically sync to the cloud. Export a JSON backup regularly. When updating an installed app, refresh the hosted files and reopen the app online so the new service-worker cache can install.
+
+
+## Update notes (October 2026)
+- Live player cards now stack the player name above large event buttons for better phone readability.
+- Main event buttons give a visible pressed/flash response.
+- Penalty and free-kick buttons open the same outcome chooser as Shot; successful attempts also record a goal.
+- New matches default to 7-a-side and 2-3-1. Player count can be changed in match setup.
+- Player position is an optional dropdown, with custom positions addable in Settings.
+- Live match screen shows only active starting/on-pitch players, with a Sub button on each player to choose a replacement.
